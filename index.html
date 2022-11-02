@@ -27,7 +27,7 @@
 	</head>
 	<body>
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
 			<div class="container">
 				<a href="#" class="navbar-brand">Frontend Bootcamp</a>
 				<button
@@ -90,7 +90,7 @@
 		<!-- BOXES -->
 		<section class="p-5">
 			<div class="container">
-				<div class="row text-center">
+				<div class="row text-center g-4">
 					<div class="col-md">
 						<div class="card bg-dark text-light">
 							<div class="card-body text-center">
@@ -128,6 +128,203 @@
 								fugiat repellendus eveniet ipsa distinctio non.
 							</p>
 							<a href="#" class="btn btn-primary">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- LEARN SECTION -->
+		<section class="p-5" id="learn">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-md">
+						<img src="img/fundamentals.svg" class="img-fluid" />
+					</div>
+					<div class="col-md p-5">
+						<h2>Learn The Fundamentals</h2>
+						<p class="lead">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+							inventore quas omnis repellendus consectetur dicta?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
+							ipsum quibusdam. Odio expedita voluptates iusto facilis rerum eum
+							exercitationem, tempora unde atque, animi sapiente necessitatibus
+							dicta vel quod voluptate cumque?
+						</p>
+						<a href="#" class="btn btn-light mt-3"
+							><i class="bi bi-chevron-right"></i> Read More</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- REACT SECTION -->
+		<section class="p-5 bg-dark text-light" id="learn">
+			<div class="container">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-md p-5">
+						<h2>Learn React</h2>
+						<p class="lead">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+							inventore quas omnis repellendus consectetur dicta?
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,
+							ipsum quibusdam. Odio expedita voluptates iusto facilis rerum eum
+							exercitationem, tempora unde atque, animi sapiente necessitatibus
+							dicta vel quod voluptate cumque?
+						</p>
+						<a href="#" class="btn btn-light mt-3"
+							><i class="bi bi-chevron-right"></i> Read More</a
+						>
+					</div>
+					<div class="col-md">
+						<img src="img/react.svg" class="img-fluid" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- QUESTION ACCORDION -->
+		<section id="questions" class="p-5">
+			<div class="container">
+				<h2 class="text-center mb-4">Frequently Asked Questions</h2>
+				<div class="accordion accordion-flush" id="questions">
+					<!-- ITEM 1 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#question-one"
+							>
+								Where exactly are you located
+							</button>
+						</h2>
+						<div
+							id="question-one"
+							class="accordion-collapse collapse"
+							data-bs-parent="#questions"
+						>
+							<div class="accordion-body">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Aspernatur, cum! Consequuntur minus cupiditate modi odio quasi
+								ad adipisci tempore! Libero quisquam molestias, hic quam odio
+								laudantium omnis temporibus excepturi. Excepturi, dolorum labore
+								quos eum perferendis voluptates saepe eligendi ratione ipsam?
+								Exercitationem commodi expedita voluptatem accusantium libero?
+								Dolor, ipsum rem. Accusantium?
+							</div>
+						</div>
+					</div>
+					<!-- ITEM 2 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingTwo">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#question-two"
+							>
+								How much does it cost to attend?
+							</button>
+						</h2>
+						<div
+							id="question-two"
+							class="accordion-collapse collapse"
+							data-bs-parent="#questions"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+								labore esse aspernatur tenetur! Labore illum sed aut natus ad
+								nemo perferendis facere enim nam quia cupiditate voluptatibus
+								sint quis rerum ut architecto suscipit iusto animi impedit,
+								itaque maxime officia, consequatur adipisci eveniet? Omnis
+								corrupti tenetur enim voluptates, tempora illo ducimus.
+							</div>
+						</div>
+					</div>
+					<!-- ITEM 3 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#question-three"
+							>
+								What do I need to know?
+							</button>
+						</h2>
+						<div
+							id="question-three"
+							class="accordion-collapse collapse"
+							data-bs-parent="#questions"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+								numquam sit eveniet culpa ab, ratione architecto a, doloribus
+								veritatis ut iste officiis sint voluptate libero. Magnam fugiat
+								harum, quo veniam excepturi commodi enim ad, atque, quod neque
+								porro dolorum. Dolorem, et. Id dolorum placeat voluptatum cumque
+								blanditiis corrupti doloribus nemo?
+							</div>
+						</div>
+					</div>
+					<!-- ITEM 4 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#question-four"
+							>
+								How do I sign up?
+							</button>
+						</h2>
+						<div
+							id="question-four"
+							class="accordion-collapse collapse"
+							data-bs-parent="#questions"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+								numquam sit eveniet culpa ab, ratione architecto a, doloribus
+								veritatis ut iste officiis sint voluptate libero. Magnam fugiat
+								harum, quo veniam excepturi commodi enim ad, atque, quod neque
+								porro dolorum. Dolorem, et. Id dolorum placeat voluptatum cumque
+								blanditiis corrupti doloribus nemo?
+							</div>
+						</div>
+					</div>
+					<!-- ITEM 5 -->
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#question-five"
+							>
+								Do you help me find a job?
+							</button>
+						</h2>
+						<div
+							id="question-five"
+							class="accordion-collapse collapse"
+							data-bs-parent="#questions"
+						>
+							<div class="accordion-body">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+								numquam sit eveniet culpa ab, ratione architecto a, doloribus
+								veritatis ut iste officiis sint voluptate libero. Magnam fugiat
+								harum, quo veniam excepturi commodi enim ad, atque, quod neque
+								porro dolorum. Dolorem, et. Id dolorum placeat voluptatum cumque
+								blanditiis corrupti doloribus nemo?
+							</div>
 						</div>
 					</div>
 				</div>
